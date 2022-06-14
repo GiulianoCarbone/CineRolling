@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="cinerolling">
+    <meta name="author" content="Grupo 2">
+    <meta name="keywords" content="cine, peliculas, estrenos, taquillera, accion, drama, suspenso, ficcion, terror">
+    <title>CineRolling</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="https://kit.fontawesome.com/7a7da11f4a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navfixed">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+              <img src="../img/logo/logo rollingcine nav.png" alt="Logo del Navbar "width="180px">   
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fuenteAlumi fs-5 ">
+              <li class="nav-item">
+                <a class="text-primary nav-link" aria-current="page" href="login.html">Login</a>
+              </li> 
+              <li class="nav-item">
+                <a class="text-primary nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-primary nav-link" href="quienessomos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class=" btn btn-outline-primary fs-5 me-2 " data-bs-toggle="modal" data-bs-target="#modalsuscripcion">Suscribite</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main> 
+          <div class="margenpeliculas">
+            <video class="w-100" src="../video//Secuencia 03.mp4" autoplay loop></video>
+          </div>
+       <section class="container">
+          <div class="row d-flex justify-content-center ">
+            <div>
+              <div class="text-center">
+        <h2 class="fuenteAlumi">¿Quién es quién?</h2>
+        <p class=" text-secondary fs-6"> Un buen día, la familia Morel amanece con un serio problema: ¡Se dan cuenta de que sus mentes se han intercambiado y que cada uno de ellos está metido en la cabeza de otro miembro del núcleo familiar! Chacha -de 6 años- está en el cuerpo del padre, el padre en el cuerpo de su joven hijo, éste se encuentra en el cuerpo de la hermana mayor, y esta última en el cuerpo de la madre, mientras que la madre en el cuerpo de Chacha. Parecen un poco perdidos, y esto es solo el principio.</p>
+      </div>
+    </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Comentarios</label>
+        </div>
+        <div class="d-flex justify-content-end">
+          <button class="btn btn-success my-3  " type="submit">Comentar</button>
+        </div>
+        <hr>
+        <div class="d-flex my-2">
+          <div>
+          <img src="../img/comentarios/GettyImages-1092658864_hero-1024x575-01.jpg" width="60" alt="comenratio2">
+        </div>
+          <div class="flex-column ms-3">
+            <h6>El Esteve</h6>
+            <p>No tiene desperdicio, totalmente recomendada.</p>
+          </div>
+        </div>
+        <div class="d-flex my-2">
+          <div>
+          <img src="../img/comentarios/1DW3-mBLhOOAFIFUVYUkgsQ-01.jpg" width="60" alt="comenratio1">
+        </div>
+          <div class="flex-column ms-3">
+            <h6>Bill</h6>
+            <p>Excelente peli. Messirve xD.</p>
+          </div>
+        </div>
+        <div class="d-flex my-2">
+          <div>
+          <img src="../img/comentarios/1DW3-mBLhOOAFIFUVYUkgsQ-01-01.jpg" width="60" alt="comenratio1">
+        </div>
+          <div class="flex-column ms-3">
+            <h6>Olakease</h6>
+            <p>Sin dudas la volveria a ver..</p>
+          </div>
+        </div>
+        <div class="d-flex my-2">
+          <div>
+          <img src="../img/comentarios/gordillo-01.jpg" width="60" alt="comenratio1">
+        </div>
+          <div class="flex-column ms-3">
+            <h6>OficialGordillo.</h6>
+            <p>Ta tremenda la peli queno</p>
+          </div>
+        </div>
+        <div class="d-flex my-2">
+          <div>
+          <img src="../img/comentarios/sfd-01.jpg" width="60" alt="comenratio1">
+        </div>
+          <div class="flex-column ms-3">
+            <h6>Pelado18</h6>
+            <p>Los de arriba no saben nada. Las de Amazon están mejor</p>
+          </div>
+        </div>
+      </div>  
+    </section>
+    </main>
+    <!--VENTANA MODAL SUSCRIPCION-->
+    <div class="modal fade" id="modalsuscripcion" tabindex="-1" aria-labelledby="suscripcionModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div><img src="../img/logo/255 [Convertido].png" class="img-fluid">
+            <h5 class="modal-title text-primary text-center display-3 fuenteAlfa" id="titulomodal">Suscribite</h5>
+          </div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close">
+            </button>
+          </div>
+          <div class="modal-body ">
+            <article >
+           <div class="col-sm-12 col-md-12">
+               <form>
+                <!-- ATRIBUTO ACTION CARGA DATOS.SIRVE PARA GUARDAR INFO Y FUNCIONALIDAD-->
+                 <div class="mb-3">
+                 <label for="nombreapellido"class="form-label">Nombre y Apellido<Span class="rojo">*</span></label>
+                 <input type="text" class="form-control"id="nombreapellido" placeholder="Juan Perez" required minlength="3" maxlength="30">
+                 </div>
+                 <div class=" mb-3">
+                     <label for="email"required class="form-label">Email<Span class="rojo">*</span></label>
+                     <input type="email" class="form-control" id="email" placeholder="JuanPerez@gmail.com">
+                 </div>
+                 <div class=" mb-3">
+                  <label for="fechanacimiento"required class="form-label">Fecha De nacimiento<Span class="rojo">*</span></label>
+                  <input type="date" class="form-control" id="fechanacimiento" >
+              </div>  
+                 <div>
+                  <div class="mb-3">
+                    <label for="contraseñasuscripcion" class="form-label">Contraseña<Span class="rojo">*</span></label>
+                    <input type="password" class="form-control" id="contraseñasuscripcion" placeholder="Contraseña">
+                  </div>
+                  <div class="form-check">   
+                    <input class="form-check-input" type="radio" name="grupo"id="sexomasculino">
+                    <label class="form-check-label" for="sexomasculino">
+                      Hombre
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="grupo"id="sexofemenino">
+                    <label class="form-check-label" for="sexofemenino">
+                      Mujer
+                    </label>
+                  </div>          
+               </div>
+               <div class="form-check p-3 ms-2">
+                 <input class="form-check-input" type="radio" value="" id="notificacionesmail">
+                 <label class="form-check-label" for="notificacionesmail">
+                   Recibir notificaciones por email?
+                 </label>
+               </div> 
+                 <div class=" d-flex justify-content-xxl-end"><button type="submit"class="btn btn-primary moverbotonsuscripcion">Enviar suscripción</button></div>
+               </form>
+           </div>
+            </article>
+        </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <footer class="bg-light ">
+        <section class="container Centrar">
+          <article class=" row">
+              <div class="col-sm-12 col-md-4">
+               <a class="navbar-brand" href="../index.html">
+                   <img class="mt-4" src="../img/logo/logo rollingcine footer.png" alt="Logo del footer "width="180px"></a>
+              </div> 
+              <div class="col-sm-12 col-md-4">
+               <ul class="navbar-nav">
+                 <h4 class="fuenteAlumi text-primary">Informacion general</h3>
+                 <li class="nav-item">
+                   <a class="text-dark ulfooter" href="error404.html">Cine en casa <i class="fas fa-house-user"></i></a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="text-dark ulfooter" href="error404.html">Promociones <i class="fas fa-percentage"></i></a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="text-dark ulfooter" href="error404.html">Precio de entradas <i class="fas fa-ticket-alt"></i></a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="text-dark ulfooter" href="error404.html">Protocolo covid <i class="fas fa-people-arrows"></i></a>
+                 </li>
+               </ul>
+           </div>
+           <div class="col-sm-12 col-md-4">
+               <h4 class="fuenteAlumi text-primary" >Seguinos en nuestras redes</h3>
+                   <a href="error404.html"><img src="../img/redescociales/5205 [Convertido].png" alt="logo de facebook "width="50px"></a>
+                   <a href="error404.html"><img src="../img/redescociales/insta.png" alt="logo de instagram"width="50px"></a>
+                   <a href="error404.html"><img src="../img/redescociales/tw.png" alt="logo de twitter"width="50px"></a>      
+           </div>
+          </article> 
+       </section>
+       </footer>
+       <script src="../js/bootstrap.min.js"></script>
+     </body>
+   </html>
+

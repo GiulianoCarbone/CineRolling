@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alumni+Sans:wght@700&family=Bebas+Neue&display=swap');
+
+.fuenteAlumi {
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+.fuenteAlfa{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.ulfooter{
+    text-decoration: none;
+}
+
+@media (max-width: 769px) {
+    .QuitarPublicidad {
+      display: none;
+    }
+    .Centrar{
+        text-align: center;
+    }
+    .margenpeliculas {
+        margin-top: 57px;
+    }
+}
+
+.navfixed{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    margin-top: -60px;
+}
+
+.marginslider{
+    margin-top: 60px;
+}
+
+.mfooter{
+    margin-top: 160px;
+}
+
+.mfooterlogin{
+    margin-top: 125px;
+}
+
+.movimiento:hover {-webkit-transform:scale(1.02);transform:scale(1.02);
+z-index: 1;
+transition: 300ms;
+}
+.estreno:hover {-webkit-transform:scale(1.1);transform:scale(1.1);
+    z-index: 1; transition: 300ms;
+}
+.cardestreno{
+    border: none; 
+}
+
+.gcentergrid {
+    display: flex;
+    justify-content: center;
+}
+    
+.gprofilehover:hover {
+    position: relative;
+    bottom: 9px;
+    right: 9px;
+    transform: scale(1.1);
+}
+
+.gproxlanzamiento{
+        text-decoration: none;
+}
+
+.rojo{
+    color: red;
+}
